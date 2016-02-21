@@ -350,3 +350,33 @@ b {
 			max-width: 100%;
 	}
 }
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) { /* STYLES GO HERE */
+	.about-me h1.hero {
+	  font-family: AvenirNext-DemiBold;
+	  font-size: 34px;
+	  color: #000000;
+	  line-height: 44px;
+	  width: 100%;
+	  /*float: left;*/
+	  padding-top: 10px;
+	  padding-bottom: 20px;
+	  border-bottom: 1px solid #EBEBEB;
+	}
+
+	.about-me ul#skills li.skill:nth-child(odd) {
+	    padding: 0 0px 0 0;
+	    display: inline-block;
+	    max-width: 100%;
+			min-width: 10%;
+	}
+
+	.about-me ul#skills li.skill:nth-child(even) {
+	    padding: 0px 0px 20px 0px;
+	    display: inline-block;
+			max-width: 100%;
+	}
+}
