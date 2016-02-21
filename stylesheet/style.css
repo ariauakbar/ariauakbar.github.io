@@ -379,4 +379,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 	    display: inline-block;
 			max-width: 100%;
 	}
+	.sample-work {
+		display: none;
+	}
 }
