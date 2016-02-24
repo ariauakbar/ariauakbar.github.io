@@ -93,44 +93,6 @@ a {
 	color: #F0F0F0;
 }
 
-a:hover {
-	text-decoration: underline;
-	text-decoration-style: dashed;
-}
-
-.container {
-  padding: 0px;
-	max-width: 100%;
-	margin: 0 auto;
-}
-
-.about-me {
-  padding: 60px 10%;
-  margin: 0 auto;
-  max-width: 900px;
-}
-
-.about-me h1.hero {
-  font-family: AvenirNext-DemiBold;
-  font-size: 34px;
-  color: #000000;
-  line-height: 44px;
-  width: 65%;
-  /*float: left;*/
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #EBEBEB;
-}
-
-.about-me p.intro {
-  font-family: AvenirNext-Regular;
-  font-size: 18px;
-  color: #000;
-	width: 100%;
-  line-height: 24px;
-  padding: 30px 0px 24px 0px;
-}
-
 b {
     font-family: AvenirNext-DemiBold;
     font-size: 18px;
@@ -138,81 +100,112 @@ b {
     line-height: 22px;
 }
 
-.about-me p.intro span {
+a:hover {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+.container {
+  padding: 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.about-me {
+  padding: 60px 10%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: AvenirNext-DemiBold;
+  font-size: 34px;
+  color: #000000;
+}
+
+h3 {
+	font-family: AvenirNext-Medium;
+  font-size: 16px;
+  color: #000000;
+}
+
+.hero {
+	font-family: AvenirNext-DemiBold;
+  font-size: 34px;
+  color: #000000;
+  line-height: 44px;
+  width: 65%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+p {
+  font-family: AvenirNext-Regular;
+  font-size: 18px;
+  color: #000;
+  line-height: 24px;
+}
+
+.intro {
+  padding: 30px 0px 24px 0px;
+	width: 100%;
+}
+
+.intro span {
   font-family: AvenirNext-DemiBold;
   font-size: 22px;
   color: #4C4C4C;
   line-height: 22px;
 }
 
-.about-me img {
-  float: right;
-  position: relative;
-  padding-right: 20px;
-  top: -40px;
+.intro-image {
+	float: right;
+	position: relative;
+	padding-right: 20px;
+	right: 0px;
+	top: -20px;
 }
 
-.about-me h2.skill-title {
-
-  font-family: AvenirNext-DemiBold;
+h2 {
+  font-family: AvenirNext-Medium;
   font-size: 16px;
   color: #EC6740;
-  line-height: 30px;
-  text-transform: uppercase;
-  padding: 5px 0 15px 0;
+	text-transform: uppercase;
 }
 
-.about-me ul#skills {
-    padding: 0;
+p.skill-title {
+	font-family: AvenirNext-DemiBold;
+	font-size: 18px;
+	color: #7A7A7A;
+	line-height: 30px;
+	text-transform: uppercase;
+	padding: 5px 0 10px 0;
 }
 
-.about-me ul#skills li.skill:nth-child(odd) {
-    padding: 0 0px 0 0;
-    display: inline-block;
-    max-width: 250px;
-		min-width: 10%;
+
+.detailed {
+	padding-top: 10px;
 }
 
-.about-me ul#skills li.skill:nth-child(even) {
-    padding: 0 40px 0px 40px;
-    display: inline-block;
-    width: 270px;
-		min-width: 10%;
+p.detail-skill {
+	font-family: AvenirNext-Regular;
+	font-size: 14px;
+	padding-bottom: 0 0 2px 0;
+	color: #EC6740;
 }
 
-.about-me ul#skills li.skill .content {
-  padding-bottom: 100px;
+.about-me ul {
+	padding-top: 20px;
+	list-style-type: none;
+	margin: 0 auto;
 }
 
-.about-me ul#skills li.skill .content ul#detailed-skills {
-    padding: 12px 0 0 0;
-    position: absolute;
-    width: 100%;
-    list-style: none;
-}
-
-.about-me ul#skills li.skill .content ul#detailed-skills li {
-  display: list-item;
-  font-family: AvenirNext-Regular;
-  font-size: 16px;
-  color: #DC9219;
-  line-height: 19px;
-  margin-bottom: 4px;
-}
-
-.about-me ul#skills li.skill .content h3 {
-  padding-bottom: 6px;
-  font-family: AvenirNext-DemiBold;
-  font-size: 22px;
-  color: #4C4C4C;
-  line-height: 30px;
-}
-
-.about-me ul#skills li p {
-  font-family: AvenirNext-Regular;
-  font-size: 18px;
-  color: #000;
-  line-height: 24px;
+.about-me li  {
+	width: 30%;
+	display:inline-block;
+	vertical-align: top;
+	padding-right: 20px;
 }
 
 .sample-work {
@@ -221,15 +214,27 @@ b {
   background: #E6E6E6;
 }
 
-.sample-work img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 4.5%;
-	/*width: 70%;*/
+.sample-work ul {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
 }
 
+.sample-work li  {
+	width: 430px%;
+	display:inline-block;
+	vertical-align: top;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	padding: 0;
+}
+
+.skill-title .
+
+/*
 .sample-work h2 {
   font-family: AvenirNext-DemiBold;
   font-size: 24px;
@@ -318,11 +323,6 @@ b {
   text-align: center;
 }
 
-/*.internet img {
-  position: relative;
-  right: 0px;
-  margin-left: 400px;
-}*/
 
 @media (max-width: 600px) {
 	.about-me h1.hero {
@@ -331,7 +331,6 @@ b {
 	  color: #000000;
 	  line-height: 44px;
 	  width: 100%;
-	  /*float: left;*/
 	  padding-top: 10px;
 	  padding-bottom: 20px;
 	  border-bottom: 1px solid #EBEBEB;
@@ -349,19 +348,34 @@ b {
 	    display: inline-block;
 			max-width: 100%;
 	}
+
+	.sample-work {
+		display: none;
+	}
+
+	.internet .content .writings {
+		width: 100%;
+	  position: relative;
+	  margin-right: 100px;
+	}
+
+	.internet .content .find-me {
+	  width: 400px;
+		float: left;
+	}
 }
 
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
-and (orientation : portrait) { /* STYLES GO HERE */
+and (orientation : portrait) { STYLES GO HERE
 	.about-me h1.hero {
 	  font-family: AvenirNext-DemiBold;
 	  font-size: 34px;
 	  color: #000000;
 	  line-height: 44px;
 	  width: 100%;
-	  /*float: left;*/
+	  float: left;
 	  padding-top: 10px;
 	  padding-bottom: 20px;
 	  border-bottom: 1px solid #EBEBEB;
@@ -381,5 +395,37 @@ and (orientation : portrait) { /* STYLES GO HERE */
 	}
 	.sample-work {
 		display: none;
+	}
+}
+*/
+
+@media (max-width: 700px) {
+	.intro-image {
+			visibility: hidden;
+			height: 0px;
+	}
+
+	.about-me {
+	  padding: 20px;
+	  margin: 0 auto;
+	  max-width: 100%;
+	}
+
+	.hero {
+		font-family: AvenirNext-DemiBold;
+	  font-size: 34px;
+	  color: #000000;
+	  line-height: 44px;
+	  width: 100%;
+	  padding-top: 10px;
+	  padding-bottom: 20px;
+	  border-bottom: 1px solid #EBEBEB;
+	}
+
+	.about-me li  {
+		width: 100%;
+		display:inline-block;
+		vertical-align: top;
+		padding-top: 10px;
 	}
 }
