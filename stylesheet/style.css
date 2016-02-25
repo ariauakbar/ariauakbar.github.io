@@ -468,7 +468,7 @@ and (orientation : portrait) { STYLES GO HERE
 }
 */
 
-@media (max-width: 700px) {
+@media (max-width: 667px) {
 	.intro-image {
 			visibility: hidden;
 			height: 0px;
