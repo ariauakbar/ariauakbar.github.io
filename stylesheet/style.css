@@ -216,7 +216,7 @@ p.detail-skill {
 }
 
 .sample-work ul {
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 	list-style-type: none;
 	margin: 0 auto;
@@ -501,10 +501,12 @@ and (orientation : portrait) { STYLES GO HERE
 }
 */
 
-@media only screen
-and (min-device-width : 300px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
+@media (max-width: 667px) {
+
+	p {
+		font-size: 20px;
+	}
+
 	.intro-image {
 			visibility: hidden;
 			height: 0px;
