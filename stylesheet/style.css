@@ -107,14 +107,14 @@ a:hover {
 
 .container {
   padding: 0px;
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
 .about-me {
-  padding: 60px 10%;
+  padding: 60px 0%;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 900px;
 }
 
 h1 {
@@ -220,17 +220,24 @@ p.detail-skill {
 	padding-bottom: 20px;
 	list-style-type: none;
 	margin: 0 auto;
+	width: 900px;
 	text-align: center;
 }
 
 .sample-work li  {
-	width: 430px%;
+	width: 430px;
 	display:inline-block;
 	vertical-align: top;
-	padding-right: 10px;
-	padding-bottom: 10px;
 	margin: auto;
-	padding: 0;
+	padding-bottom: 30px;
+}
+
+.sample-work li:nth-child(even) {
+	padding-left: 17px;
+}
+
+.sample-work li:nth-child(odd) {
+	padding-right: 17px;
 }
 
 h3 {
@@ -245,16 +252,23 @@ h3 {
 }
 
 .internet {
-  margin-top: 0 auto;
-  padding: 60px 10%;
+  /*margin-top: 0 auto;*/
+  padding: 60px 0%;
+	width: 100%;
   background: #A9B0B8;
+}
+
+.internet .content {
+	padding: 0px 10%;
+	margin: 0 auto;
+	max-width: 900px;
 }
 
 .writings {
   width: 400px;
   display: inline-block;
 	margin-top: 40px;
-	margin-right: 50px;
+	padding-right: 80px;
 }
 
 .writings ul {
@@ -301,7 +315,7 @@ h4 {
 .post-description {
 	font-family: AvenirNext-Regular;
 	font-size: 16px;
-	color: #74797E;
+	color: #52575C;
 	line-height: 22px;
 }
 
@@ -311,6 +325,25 @@ h4 {
 	width: 400px;
 	margin-top: 40px;
 }
+
+.find-me ul {
+  padding-top: 26px;
+  list-style: none;
+}
+
+.find-me ul li {
+  padding-bottom: 10px;
+}
+
+.find-me .description {
+	padding-top: 25px;
+	color: #52575C;
+}
+
+.logo {
+	float: right;
+}
+
 
 /*
 
@@ -496,5 +529,53 @@ and (orientation : portrait) { STYLES GO HERE
 		display:inline-block;
 		vertical-align: top;
 		padding-top: 10px;
+	}
+
+	.sample-work ul {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		list-style-type: none;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.sample-work li  {
+		width: 430px;
+		display:inline-block;
+		vertical-align: top;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+
+	.sample-work li:nth-child(even) {
+		padding-left: 0px;
+	}
+
+	.sample-work li:nth-child(odd) {
+		padding-right: 0px;
+	}
+
+	.internet {
+	  background: #A9B0B8;
+	}
+
+	.writings {
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    padding-right: 80px;
+	}
+
+	.find-me {
+		width: 100%;
+		display: inline-block;
+		margin-top: 40px;
+	}
+
+	.internet .content {
+    padding: 0px 5%;
+    margin: 0 auto;
+    max-width: 900px;
 	}
 }
