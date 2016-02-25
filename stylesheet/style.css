@@ -244,16 +244,75 @@ h3 {
 	text-align: center;
 }
 
-/*
-.sample-work h2 {
-  font-family: AvenirNext-DemiBold;
-  font-size: 24px;
-  color: #6E8096;
-  line-height: 22px;
-  text-transform: uppercase;
-  padding: 60px 0 0px 0;
-  text-align: center;
+.internet {
+  margin-top: 0 auto;
+  padding: 60px 10%;
+  background: #A9B0B8;
 }
+
+.writings {
+  width: 400px;
+  display: inline-block;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.writings ul {
+  padding-top: 26px;
+  list-style: none;
+}
+
+.writings ul li {
+  padding-bottom: 30px;
+}
+
+h4 {
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+  color: #656565;
+}
+
+.heading {
+	text-align: center;
+}
+
+.section-title {
+	line-height: 22px;
+	border-bottom: 1px solid #979797;
+	padding-bottom: 10px;
+}
+
+.article {
+	font-family: AvenirNext-Medium;
+	font-size: 16px;
+	color: #E5E5E5;
+	line-height: 23px;
+	padding-top: 8px;
+}
+
+.post-title {
+	font-family: AvenirNext-Regular;
+	font-size: 28px;
+	color: #E5E5E5;
+	line-height: 30px;
+	padding-bottom: 8px;
+}
+
+.post-description {
+	font-family: AvenirNext-Regular;
+	font-size: 16px;
+	color: #74797E;
+	line-height: 22px;
+}
+
+.find-me {
+  display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	margin-top: 40px;
+}
+
+/*
 
 .internet {
   width: 100%;
