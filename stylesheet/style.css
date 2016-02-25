@@ -212,6 +212,7 @@ p.detail-skill {
   width: 100%;
   margin-top: 0px;
   background: #E6E6E6;
+	padding: 40px 0 40px 0;
 }
 
 .sample-work ul {
@@ -232,7 +233,16 @@ p.detail-skill {
 	padding: 0;
 }
 
-.skill-title .
+h3 {
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+  color: #6E8096;
+	text-transform: uppercase;
+}
+
+.title {
+	text-align: center;
+}
 
 /*
 .sample-work h2 {
