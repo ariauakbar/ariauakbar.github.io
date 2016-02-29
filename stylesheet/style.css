@@ -550,7 +550,7 @@ and (max-device-width : 736px)   {
 		display:inline-block;
 		vertical-align: top;
 		margin: auto;
-		padding-bottom: 10px;
+		padding-bottom: 5px;
 	}
 
 	.sample-work li:nth-child(even) {
