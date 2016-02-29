@@ -499,7 +499,7 @@ and (orientation : portrait) { STYLES GO HERE
 }
 */
 
-@media (max-width: 667px) {
+@media (max-width: 900px) {
 
 	p {
 		font-size: 20px;
@@ -581,4 +581,18 @@ and (orientation : portrait) { STYLES GO HERE
     margin: 0 auto;
     max-width: 900px;
 	}
+
+	.detailed {
+		padding-top: 10px;
+	}
+
+	p.detail-skill {
+		font-size: 14px;
+		padding-bottom: 0 0 2px 0;
+		color: #EC6740;
+		display: inline-block;
+		padding-right: 15px;
+		padding-bottom: 5px;
+	}
+
 }
