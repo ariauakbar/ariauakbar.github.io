@@ -499,10 +499,7 @@ and (orientation : portrait) { STYLES GO HERE
 }
 */
 
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
+@media only screen and (max-width: 960px)  {
 
 	p {
 		font-size: 20px;
