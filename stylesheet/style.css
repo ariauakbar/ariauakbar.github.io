@@ -268,7 +268,7 @@ h3 {
   width: 400px;
   display: inline-block;
 	margin-top: 40px;
-	padding-right: 80px;
+	padding-right: 50px;
 }
 
 .writings ul {
@@ -499,7 +499,7 @@ and (orientation : portrait) { STYLES GO HERE
 }
 */
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 40em)  {
 
 	p {
 		font-size: 20px;
