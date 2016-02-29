@@ -598,3 +598,101 @@ and (max-device-width : 736px)   {
 	}
 
 }
+
+@media only screen (max-width: 960px))   {
+
+	p {
+		font-size: 20px;
+	}
+
+	.intro-image {
+			visibility: hidden;
+			height: 0px;
+	}
+
+	.about-me {
+	  padding: 20px;
+	  margin: 0 auto;
+	  width: 100%;
+	}
+
+	.hero {
+		font-family: AvenirNext-DemiBold;
+	  font-size: 34px;
+	  color: #000000;
+	  line-height: 44px;
+	  width: 100%;
+	  padding-top: 10px;
+	  padding-bottom: 20px;
+	  border-bottom: 1px solid #EBEBEB;
+	}
+
+	.about-me li  {
+		width: 100%;
+		display:inline-block;
+		vertical-align: top;
+		padding-top: 10px;
+	}
+
+	.sample-work ul {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		list-style-type: none;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.sample-work li  {
+		width: 430px;
+		display:inline-block;
+		vertical-align: top;
+		margin: auto;
+		padding-bottom: 5px;
+	}
+
+	.sample-work li:nth-child(even) {
+		padding-left: 0px;
+	}
+
+	.sample-work li:nth-child(odd) {
+		padding-right: 0px;
+	}
+
+	.internet {
+	  background: #A9B0B8;
+	}
+
+	.writings {
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    padding-right: 80px;
+	}
+
+	.find-me {
+		width: 100%;
+		display: inline-block;
+		margin-top: 40px;
+	}
+
+	.internet .content {
+    padding: 0px 5%;
+    margin: 0 auto;
+    max-width: 900px;
+	}
+
+	.detailed {
+		padding-top: 10px;
+	}
+
+	p.detail-skill {
+		font-size: 14px;
+		padding-bottom: 0 0 2px 0;
+		color: #EC6740;
+		display: inline-block;
+		padding-right: 15px;
+		padding-bottom: 5px;
+	}
+
+}
