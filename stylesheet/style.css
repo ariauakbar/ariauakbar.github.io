@@ -515,7 +515,7 @@ and (max-device-width : 736px)   {
 	.about-me {
 	  padding: 20px;
 	  margin: 0 auto;
-	  width: 100%;
+	  /*width: 100%;*/
 	}
 
 	.hero {
@@ -599,7 +599,7 @@ and (max-device-width : 736px)   {
 
 }
 
-@media only screen (max-width: 960px))   {
+@media (max-width: 600px)  {
 
 	p {
 		font-size: 20px;
@@ -613,8 +613,14 @@ and (max-device-width : 736px)   {
 	.about-me {
 	  padding: 20px;
 	  margin: 0 auto;
-	  width: 100%;
+	  /*width: 100%;*/
 	}
+
+	.intro {
+	  padding: 30px 0px 0px 0px;
+		width: 100%;
+	}
+
 
 	.hero {
 		font-family: AvenirNext-DemiBold;
