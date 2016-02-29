@@ -597,11 +597,4 @@ and (max-device-width : 736px)   {
 		padding-bottom: 5px;
 	}
 
-	p {
-	  font-family: AvenirNext-Regular;
-	  font-size: 32px;
-	  color: #000;
-	  line-height: 24px;
-	}
-
 }
