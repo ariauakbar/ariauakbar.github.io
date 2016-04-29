@@ -601,8 +601,18 @@ and (max-device-width : 736px)   {
 
 @media (max-width: 600px)  {
 
+	.intro span {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	b {
+		font-size: 24px;
+	}
+
 	p {
-		font-size: 20px;
+		font-size: 24px;
+		line-height: 32px;
 	}
 
 	.intro-image {
@@ -617,7 +627,7 @@ and (max-device-width : 736px)   {
 	}
 
 	.intro {
-	  padding: 30px 0px 0px 0px;
+	  padding: 30px 0px 50px 0px;
 		width: 100%;
 	}
 
@@ -693,12 +703,11 @@ and (max-device-width : 736px)   {
 	}
 
 	p.detail-skill {
-		font-size: 14px;
-		padding-bottom: 0 0 2px 0;
+		font-size: 16px;
 		color: #EC6740;
 		display: inline-block;
 		padding-right: 15px;
-		padding-bottom: 5px;
+		padding-bottom: 2px;
 	}
 
 }
