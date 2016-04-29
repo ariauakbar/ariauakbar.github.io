@@ -599,7 +599,7 @@ and (max-device-width : 736px)   {
 
 }
 
-@media (max-width: 600px)  {
+@media (max-width: 736px)  {
 
 	.intro span {
 		font-size: 28px;
